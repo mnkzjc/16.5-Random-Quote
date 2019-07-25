@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,400i|Roboto:400,400i&display=swap');
+
+* {
+    box-sizing: border-box;
+    // border: 1px solid red;
+    text-align: center;
+}
+
+header {
+    color: #1f4fa1;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 30px;
+}
+
+.quote {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.author {
+    color: #1f4fa1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trigger {
+    font-family: 'Roboto', cursive;
+    color: #5b92e5;
+    background-color: #ffffff;
+    border: 2px solid #478be7;
+    padding: 5px 10px;
+    border-radius: 5px;
+    &:hover {
+        cursor: pointer;
+        background-color: #5b92e5;
+        color: #ffffff;
+    }
+}
+
+.tweet {
+    text-decoration: none;
+    color: #5b92e5;
+    &:hover {
+
+    }
+}
