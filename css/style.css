@@ -7,7 +7,7 @@
 header {
   color: #1f4fa1;
   font-family: 'Kaushan Script', cursive;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .quote {
@@ -39,6 +39,10 @@ header {
 .tweet {
   text-decoration: none;
   color: #5b92e5;
+}
+
+.tweet:hover {
+  color: #1f4fa1;
 }
 
 /*# sourceMappingURL=style.css.map */
